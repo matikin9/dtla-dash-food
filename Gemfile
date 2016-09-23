@@ -22,3 +22,8 @@ gem "minima"
 # group :jekyll_plugins do
 #   gem "jekyll-github-metadata", "~> 1.0"
 # end
+
+ruby '>=2.2.2'
+
+gem 'rake'
+gem 'html-proofer'

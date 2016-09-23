@@ -5,7 +5,7 @@ var map
 $(document).ready(function() {
     map = L.map('map').setView([34.043265, -118.246369], 13);
 
-    L.tileLayer('http://{s}.tile.osm.org/{z}/{x}/{y}.png', {
+    L.tileLayer('https://api.mapbox.com/styles/v1/matikin9/cim5bt1q100iy9jkpl7ff9d1h/tiles/256/{z}/{x}/{y}?access_token=pk.eyJ1IjoibWF0aWtpbjkiLCJhIjoiYjMyMjBjZTE4NWUxMDkxOWZjZjFjZWEzZTcxNDUxOTkifQ._ldFl3e17jCs7aWm6zMZ3Q', {
         attribution: '&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
     }).addTo(map);
     
