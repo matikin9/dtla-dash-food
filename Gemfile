@@ -23,7 +23,6 @@ gem "minima"
 #   gem "jekyll-github-metadata", "~> 1.0"
 # end
 
-ruby '2.2.2'
 
 gem 'rake'
 gem 'html-proofer'
