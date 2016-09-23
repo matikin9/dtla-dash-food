@@ -5,4 +5,4 @@ set -e
 
 bundle install
 bundle exec jekyll build
-bundle exec htmlproofer ./site_content
+bundle exec htmlproofer ./_site
