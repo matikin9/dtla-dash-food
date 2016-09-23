@@ -25,6 +25,7 @@ github_username:  matikin9
 # Build settings
 markdown: kramdown
 theme: minima
+destination: docs
 
 exclude:
   - ciscript
