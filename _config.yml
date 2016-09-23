@@ -30,4 +30,4 @@ theme: minima
 
 exclude:
   - ciscript
-  - vendor
+  - vendor/bundle
